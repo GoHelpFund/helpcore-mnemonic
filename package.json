@@ -1,0 +1,46 @@
+{
+  "name": "@gohelpfund/helpcore-mnemonic",
+  "version": "1.6.1",
+  "description": "BIP39 Mnemonics for Helpcore",
+  "author": "Dash Core Group, Inc. <dev@dash.org>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc mocha",
+    "build": "webpack"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Tirzuman",
+      "email": "daniel.tirzuman@gohelpfund.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gohelpfund/helpcore-mnemonic.git"
+  },
+  "keywords": [
+    "help",
+    "bitcore",
+    "mnemonic",
+    "crypto",
+    "cryptography",
+    "encryption",
+    "helpcore"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@gohelpfund/helpcore-lib": "^0.16.7"
+  }
+}
